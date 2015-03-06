@@ -1,0 +1,22 @@
+/*
+ * Navigation
+ */
+.content_navi_bg {
+	border-bottom: 2px solid #000000;
+	background: #A9A9A9;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	height: 38px;
+}
+
+.content_navi_default_right {
+	padding-top: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 3px;
+	text-align: right;
+}
+
+.test {
+	background-image: url("../images/show_navi.png");	
+}

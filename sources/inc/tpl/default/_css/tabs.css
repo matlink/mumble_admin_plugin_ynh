@@ -1,0 +1,75 @@
+/*
+ * jQuery UI Tabs
+ */
+div.ui-tabs-hide {
+	display: none;
+}
+/*
+div#tabs ul.ui-tabs-nav {
+	white-space:nowrap 
+}
+*/
+div#tabs li {
+	float: left;
+	list-style-type: none;
+	margin-top: 5px;
+	margin-left: 2px;
+	padding-right: 20px;
+	line-height: 27px;
+	background: #5A5A5A;
+	display: block;
+	height: 27px;
+}
+
+div#tabs li:hover {
+	float: left;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-left: 2px;
+	line-height: 32px;
+	display: block;
+	height: 32px;
+}
+
+div#tabs li.ui-tabs-active {
+	float: left;
+	list-style-type: none;
+	margin-top: 1px;
+	margin-left: 2px;
+	line-height: 30px;
+	background: #0AB3EA;
+	border-top: 1px solid #5A5A5A;
+	border-left: 1px solid #5A5A5A;
+	border-right: 1px solid #5A5A5A;
+	display: block;
+	height: 30px;
+}
+
+div#tabs li.ui-tabs-active a {
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding-left: 20px;
+}
+
+div#tabs li a {
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding-left: 20px;
+}
+
+div.ui-tabs-panel {
+	background-color: #A9A9A9;
+	border: 1px solid black;
+}
+/*
+div.scroll {
+	overflow: hidden;
+	overflow-y: none;
+	width: inherit;
+	height: 45px;
+}
+*/

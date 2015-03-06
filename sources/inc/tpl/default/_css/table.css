@@ -1,0 +1,72 @@
+/*
+ * jQuery UI Tabellen Sortieren/Suchen
+ */
+table.tablesorter {
+	font-family: arial;
+	background-color: #CDCDCD;
+	margin: 5px 0pt 5px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+
+table.tablesorter thead tr th,table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+	padding-right: 15px;
+}
+
+table.tablesorter thead tr .header {
+	background-image: url(../images/tbl_sort_bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+	height: 30px;
+}
+
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: middle;
+}
+
+table.tablesorter tbody tr.odd:hover td, table.tablesorter tbody tr.even:hover td {
+	background-color: #A9A9A9;
+}
+
+table.tablesorter tbody tr.odd td {
+	background-color: #F0F0F6;
+}
+
+
+
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../images/tbl_sort_asc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../images/tbl_sort_desc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown,table.tablesorter thead tr .headerSortUp
+	{
+	background-color: #0AB3EA;
+}
+
+.pagedisplay {
+	width: 40px;
+	height: 17px;
+	text-align: center;
+}
+
+.pager {
+	float: left;
+	padding: 6px;
+}
+
+.first,.prev,.next,.last {
+	vertical-align: middle;
+}

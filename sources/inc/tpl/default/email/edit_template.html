@@ -1,0 +1,83 @@
+<div id="editMail">
+	<table border="0" cellpadding="4" cellspacing="1">
+		<tr>
+			<td>
+				<b>[head_template_id]</b>
+			</td>
+			<td>[template_id]</td>
+		</tr>
+		<tr>
+			<td>
+				<b>[head_name]</b>
+			</td>
+			<td>[name]</td>
+		</tr>
+		<tr>
+			<td>
+				<b>[head_user]</b>
+			</td>
+			<td>[user]</td>
+		</tr>
+		<tr>
+			<td>
+				<b>[head_date]</b>
+			</td>
+			<td>[date]</td>
+		</tr>
+	</table>
+</div>
+<div>
+	<div id="leftTemplateEMail">
+		<div id="editMail">
+			<table border="0" cellpadding="4" cellspacing="1">
+				<tr>
+					<td>
+						<a title=" - [head_explanation]">
+							<b>[head_lock]</b>
+						</a>
+					</td>
+					<td>
+						<a title=" - [head_explanation]">
+							<select name="lock" class="input">[lock]</select>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>[head_subject]</b>
+					</td>
+					<td>
+						<input type="text" size="60" maxlength="150" name="subject" value="[subject]" class="input">
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="editMail">
+			<table border="0" cellpadding="4" cellspacing="1">
+				<tr>
+					<td align="left" valign="top">
+						<b>[head_body]</b>
+					</td>
+					<td>
+						<textarea class="mceEditor" name="body" cols="50" rows="14">[body]</textarea>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div id="rigthTemplateEMail">
+		<div id="editMail">
+			<b>
+				<u>[head_placeholder]</u>
+			</b>
+			<i>
+				[head_placeholder_info]
+			</i>
+			</br>
+			<table border="0" cellpadding="4" cellspacing="1">
+					[placeholder]
+			</table>
+		</div>
+	</div>
+</div>
+<input type="hidden" name="template_id" value="[template_id]">

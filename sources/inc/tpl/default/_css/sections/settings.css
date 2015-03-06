@@ -1,0 +1,15 @@
+/*
+ * Section: Settings
+ */
+.ui-tabs-panel {
+	padding-top: 12px;
+}
+.setDiv1 {
+	float: left;
+	padding-left: 10px;
+}
+
+.setDiv2 {
+	padding-left: 175px;
+	padding-bottom: 12px;
+}

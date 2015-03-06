@@ -1,0 +1,67 @@
+<table cellpadding="4" cellspacing="1">
+ <FORM action="./install.php?section=check_preferences" method="post">
+  <tr>
+	<td colspan="3"><b>[install_discription]</b></td>
+  </tr>
+  <tr>
+	<td width="250px">[install_name]</td>
+	<td><input type="text" size="24" maxlength="50" name="map_user_name" value="[install_name_value]" class="input"></td>
+	<td>[install_name_discription]</td>
+  </tr>
+    <tr>
+	<td width="250px">[install_username]</td>
+	<td><input type="text" size="24" maxlength="50" name="map_user_username" value="[install_username_value]" class="input"></td>
+	<td>[install_username_discription]</td>
+  </tr>
+    <tr>
+	<td width="250px">[install_clantag]</td>
+	<td><input type="text" size="24" maxlength="50" name="map_user_clantag" value="[install_clantag_value]" class="input"></td>
+	<td>[install_clantag_discription]</td>
+  </tr>
+  <tr>
+	<td width="250px">[install_email]</td>
+	<td><input type="text" size="24" maxlength="50" name="map_user_email" value="[install_email_value]" class="input"></td>
+	<td>[install_email_discription]</td>
+  </tr>
+  <tr>
+	<td width="250px">[install_pass_1]</td>
+	<td><input type="password" size="24" maxlength="50" name="map_user_pwd_1" value="[install_pass_value_1]" class="input"></td>
+	<td>[install_pass_discription_1]</td>
+  </tr>
+  <tr>
+	<td width="250px">[install_pass_2]</td>
+	<td><input type="password" size="24" maxlength="50" name="map_user_pwd_2" value="[install_pass_value_2]" class="input"></td>
+	<td>[install_pass_discription_2]</td>
+  </tr>
+  <tr>
+   <td><input type="submit" value="[install_next]" class="submitbutton"></td>
+   <td><input type="hidden" name="mysql_host" value="[mysql_host]"></td>
+   <td><input type="hidden" name="mysql_user" value="[mysql_user]"></td>
+   <td><input type="hidden" name="mysql_pass" value="[mysql_pass]"></td>
+   <td><input type="hidden" name="database_name" value="[database_name]"></td>
+   <td><input type="hidden" name="database_prefix" value="[database_prefix]"></td>
+   <td><input type="hidden" name="slice_secret" value="[slice_secret]"></td>
+   <td><input type="hidden" name="language" value="[install_language_value]"></td>
+   <td><input type="hidden" name="template" value="[install_template_value]"></td>
+  </tr>
+ </form>
+ <FORM action="./index.php?section=insert_preferences" method="post">
+  <tr>
+   <td><input type="submit" value="[install_back]" class="submitbutton"></td>
+   <td><input type="hidden" name="mysql_host" value="[mysql_host]"></td>
+   <td><input type="hidden" name="mysql_user" value="[mysql_user]"></td>
+   <td><input type="hidden" name="mysql_pass" value="[mysql_pass]"></td>
+   <td><input type="hidden" name="database_name" value="[database_name]"></td>
+   <td><input type="hidden" name="database_prefix" value="[database_prefix]"></td>
+   <td><input type="hidden" name="slice_secret" value="[slice_secret]"></td>
+   <td><input type="hidden" name="map_user_name" value="[install_name_value]"></td>
+   <td><input type="hidden" name="map_user_username" value="[install_username_value]"></td>
+   <td><input type="hidden" name="map_user_clantag" value="[install_clantag_value]"></td>
+   <td><input type="hidden" name="map_user_email" value="[install_email_value]"></td>
+   <td><input type="hidden" name="map_user_pwd_1" value="[install_pass_value_1]"></td>
+   <td><input type="hidden" name="map_user_pwd_2" value="[install_pass_value_2]"></td>
+   <td><input type="hidden" name="language" value="[install_language_value]"></td>
+   <td><input type="hidden" name="template" value="[install_template_value]"></td>
+  </tr>
+ </form>
+</table>

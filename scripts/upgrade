@@ -1,0 +1,10 @@
+#! /bin/bash
+
+app=mumble_admin_plugin
+user=$(sudo yunohost app setting $app admin)
+final_path=$(sudo yunohost app setting $app final_path)
+domain=$(sudo yunohost app setting $app domain)
+
+cp ../sources/* -R $final_path
+
+sudo nginx -s reload

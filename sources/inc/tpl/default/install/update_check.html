@@ -1,0 +1,38 @@
+<table width="100%" cellpadding="4" cellspacing="1">
+  <tr>
+	<td>[discription]</td>
+  </tr>
+</table>
+<table cellpadding="4" cellspacing="1">
+  <tr>
+	<td>[database]</td>
+	<td>[database_check]</td>
+  </tr>
+  <tr>
+	<td>[version]</td>
+	<td>[version_check]</td>
+  </tr>
+  [button_next_1]
+  <tr>
+   <FORM action="./update.php?section=update" method="post">
+	<td><input type="submit" value="[button_next]" class="submitbutton"></td>
+    <td><input type="hidden" name="language" value="[install_language_value]"></td>
+    <td><input type="hidden" name="template" value="[install_template_value]"></td>
+   </form>
+  </tr>
+  [button_next_2]
+  <tr>
+   <FORM action="./update.php?section=check" method="post">
+	<td><input type="submit" value="[button_refresh]" class="submitbutton"></td>
+    <td><input type="hidden" name="language" value="[install_language_value]"></td>
+    <td><input type="hidden" name="template" value="[install_template_value]"></td>
+   </form>
+  </tr>
+  <tr>
+   <FORM action="./update.php" method="post">
+	<td><input type="submit" value="[button_back]" class="submitbutton"></td>
+    <td><input type="hidden" name="language" value="[install_language_value]"></td>
+    <td><input type="hidden" name="template" value="[install_template_value]"></td>
+   </form>
+  </tr>
+</table>

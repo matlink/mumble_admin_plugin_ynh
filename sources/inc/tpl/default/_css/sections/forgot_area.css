@@ -1,0 +1,36 @@
+/*
+ * Section: Passwort vergessen
+ */
+.forgot_area_ebene_1 {
+	margin-left: 17%;
+	top: 280px;
+	left: 210px;
+	width: 280px;
+	padding: 15px;
+	border: 1px solid #CDCDCD;
+	color: #000000;
+	background: #05A705;
+	text-align: center;
+}
+
+.forgot_area_ebene_2 {
+	top: 280px;
+	left: 560px;
+	width: 280px;
+	padding: 15px;
+	border: 1px solid #CDCDCD;
+	color: #000000;
+	background: #05A705;
+	text-align: center;
+}
+
+.forgot_area_ebene_3 {
+	padding: 5px;
+	margin: 10px;
+	width: 250px;
+	height: 175px;
+	border: 1px solid #CDCDCD;
+	color: #000000;
+	background: #6CA1DE;
+	text-align: center;
+}

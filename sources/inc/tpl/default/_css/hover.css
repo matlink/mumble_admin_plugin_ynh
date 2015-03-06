@@ -1,0 +1,23 @@
+/*
+ * jQuery UI Hover Info Felder (in Tabs)
+ */
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid #111;
+	background-color: #eee;
+	padding: 5px;
+	opacity: 0.85;
+}
+
+#tooltip h3,#tooltip div {
+	margin: 0;
+}
+
+div.ui-tabs-panel a {
+	color: #000000;
+}
+
+div.ui-tabs-panel a:hover {
+	color: #000000;
+}

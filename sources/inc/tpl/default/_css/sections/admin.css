@@ -1,0 +1,124 @@
+/*
+ * Section: Admin Profil anzeigen (profile)
+ */
+div#left {
+	float: left;
+	width: 78%;
+	clear: both;
+}
+
+div#rigth {
+	float: right;
+	width: 22%;
+}
+
+div#head {
+	margin-top: 3px;
+	margin-right: 2px;
+	padding: 5px;
+	border: 1px solid #000000;
+}
+
+div#headLeft {
+	float: left;
+	width: 67%;
+	line-height: 0px;
+}
+
+div#headRigth {
+	float: right;
+	width: 33%;
+	text-align: right;
+}
+
+div#headClear {
+	clear: both;
+}
+
+div#informations {
+	margin-top: 3px;
+	margin-right: 2px;
+	padding: 5px;
+	border: 1px solid #000000;
+	clear: both;
+}
+
+div#discription {
+	margin-top: 3px;
+	margin-right: 2px;
+	padding: 5px;
+	border: 1px solid #000000;
+	clear: both;
+}
+
+div#image {
+	margin-top: 3px;
+	margin-left: 2px;
+	padding: 10px;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+div#links {
+	margin-top: 3px;
+	margin-left: 2px;
+	padding: 5px;
+	border: 1px solid #000000;
+	clear: both;
+}
+
+/*
+ * Section: Admin bearbeiten (edit_admin)
+ */
+div#FormMainContent {
+	margin-left: 5px;
+}
+
+div#FormChild {
+	margin-top: 5px;
+}
+
+div#FormHead {
+	float: left;
+	width: 175px;
+	padding-right: 10px;
+}
+
+div#FormValue {
+	float: left;
+}
+
+/*
+ * Section: Admin Avatar ändern/hochladen/löschen (avatar)
+ */
+div#CurrentAvatar {
+	margin-top: 3px;
+	margin-right: 2px;
+	padding: 5px;
+	border: 1px solid #000000;
+}
+
+div#UploadAvatar {
+	margin-top: 3px;
+	margin-right: 2px;
+	padding: 5px;
+	border: 1px solid #000000;
+	clear: both;
+}
+
+div#InfoAvatar {
+	margin-top: 3px;
+	margin-right: 2px;
+	padding: 5px;
+	border: 1px solid #000000;
+	font-weight: bold;
+	clear: both;
+}
+
+div#DeleteAvatar {
+	margin-top: 3px;
+	margin-right: 2px;
+	padding: 5px;
+	border: 1px solid #000000;
+	clear: both;
+}

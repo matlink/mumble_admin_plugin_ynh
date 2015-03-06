@@ -1,0 +1,54 @@
+/*
+ * Menu *Frame*
+ */
+.menu {
+	width: 160px;
+	vertical-align: top;
+	position: relative;
+	left: -3px;
+	top: -4px;
+	max-height: 500px;
+}
+
+.overview {
+	background-color: #5498C2;
+	font-weight: bolder;
+	font-size: medium;
+	text-align: center;
+	padding-top: 8px;
+	border-right: 1px solid #000000;
+}
+
+.linkbar {
+	background-color: #5498C2;
+	font-weight: bolder;
+	text-align: left;
+	padding-left: 4px;
+	padding-bottom: 5px;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+
+.login {
+	background-color: #5498C2;
+	font-weight: bolder;
+	font-size: medium;
+	text-align: center;
+	border-right: 1px solid #000000;
+}
+
+.request_link {
+	background-color: #5498C2;
+	padding-left: 4px;
+	padding-bottom: 5px;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+.menu_login_padding {
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.menu_login_padding_top {
+	padding-top: 1px;
+}

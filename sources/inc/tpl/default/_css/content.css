@@ -1,0 +1,51 @@
+/*
+ * Content *Frame*
+ */
+.content {
+	width: 100%;
+	padding-bottom: 2em;
+	vertical-align:top;
+}
+
+.index {
+	background-color: #E5E9EB;
+	vertical-align: top;
+}
+
+.mceNoEditor,.input,.pagedisplay,.pagesize,#filter {
+	font-family: Arial, sans-serif;
+	color: #FFFFFF;
+	font-size: 12px;
+	border: 3px double #AFAFAF;
+	background-color: #5F5F5F;
+	padding: 2px;
+}
+
+.mceNoEditor,.input:hover,.pagedisplay:hover,.pagesize:hover,#filter:hover {
+	font-family: Arial, sans-serif;
+	color: #FFFFFF;
+	font-size: 12px;
+	border: 3px double #000000;
+	background-color: #8F8F8F;
+	padding: 2px;
+}
+
+.submitbutton {
+	font-weight: bold;
+	border: 1px solid;
+	overflow: visible;
+}
+
+.s_perm {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.s_perm_head {
+	text-decoration: underline;
+	font-size: large;
+}
+
+.s_perm_discr {
+	font-style: italic;
+}

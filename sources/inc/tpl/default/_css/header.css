@@ -1,0 +1,9 @@
+/*
+ * Header *Frame*
+ */
+.header {
+	height: 135px;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+	background: #E5E9EB url(../images/header.png) repeat-x;
+}

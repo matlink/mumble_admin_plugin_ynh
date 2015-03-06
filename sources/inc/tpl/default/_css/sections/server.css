@@ -1,0 +1,81 @@
+/*
+ * Section: Server Details (show_server)
+ */
+div#TopContent {
+	margin-top: 3px;
+	padding: 5px;
+	border: 1px solid #000000;
+	min-height: 56px;
+}
+
+div#MiddleContent {
+	margin-top: 3px;
+	padding: 5px;
+	border: 1px solid #000000;
+}
+
+div#BottomContent {
+	clear: both;
+	margin-top: 3px;
+	padding: 5px;
+	border: 1px solid #000000;
+}
+
+div#TopLeft {
+	float: left;
+	width: 28%;
+}
+
+div#TopMiddle {
+	float: right;
+	width: 32%;
+}
+
+div#TopRight {
+	float: right;
+	width: 40%;
+}
+
+div#MiddleLeft {
+	float: left;
+	width: 60%;
+}
+
+div#MiddleRight {
+	float: right;
+	width: 40%;
+}
+
+div#MiddleClear {
+	clear: both;
+}
+
+div#Module_A {
+	margin-top: 3px;
+	padding: 5px;
+	border: 1px solid #000000;
+}
+
+div#Module_1 {
+	float: left;
+	width: 25%;
+	margin-top: 0px;
+}
+
+div#Module_2 {
+	float: left;
+	width: 25%;
+	margin-top: 2px;
+}
+
+div#Module_3 {
+	float: left;
+	width: 25%;
+	margin-top: 9px;
+}
+
+div#Module_4 {
+	float: left;
+	width: 25%;
+	margin-top: 9px;
+}

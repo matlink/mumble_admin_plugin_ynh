@@ -1,0 +1,136 @@
+Abs. 1 Vorwort
+Abs.1 §1 
+Dies ist die Lizenz für Produkte von Mumb1e.de.
+Wir deuten ausdrücklich darauf hin, das sämtliche Produkte
+des Mumb1e Admin Plugin, auch "MAP" genannt, ab V2.x.x auch
+unter diese Lizenz fallen, wenn diese von Firmen genutzt werden.
+Außerdem deuten wir ausdrücklich darauf hin, das mit dem Erwerb
+bzw. Download des Mumb1e Admin Plugins diese Lizenz vom Kunden bw.
+Endnutzer anerkannt und akzeptiert werden muss. In den folgenden
+Abschnitten finden Sie alle weiteren Informationen zu Lizenzstrafgebühren
+im Falle eines Verstoßes, Nutzungsrechten, sowie den erweiterten
+Lizenzkosten für Firmen. Generell gilt allerdings für die private Nutzung,
+dass das MAP unter der GPLv3 veröffentlicht wird. Das MAP wird also
+dual-lizensiert veröffentlicht!
+
+Abs.2 Schutzorgane
+Abs.2 §1 
+Sämtliche Produkte von Mumb1e.de, die unter dieser Lizenz
+vermarktet sind, enthalten eine Schnittstelle. Diese ermöglicht es
+den Urhebern, im Falle eines Verstoßes, die Produkte mit sofortiger
+Wirkung abzuschalten. Wir setzen "LiveZilla" ein, um unsere Produkte
+zu überprüfen. Die Modifikation oder Abschaltung dieser Schutzorgane,
+oder jeglicher Versuch wird mit einer Strafgebühr abgemahnt (Preisliste
+siehe unter "Lizenzstrafgebühren").
+
+Abs. 3 Leistungen
+Abs.3 §1 
+Mumb1e.de versichert hiermit, dass unsere Produkte in einem
+einwandfreien und ausgiebig getesteten Zustand an den Kunden ausgeliefert
+werden. Sollten Sicherheitslücken oder ähnliche Fehler in unseren Produkten
+auftreten, sind unsere Kunden bzw. Endanwender verpflichtet diese sofort zu
+melden. Wir verpflichten uns zu jeder Zeit schnellst möglich entsprechende
+Bugfixupdates unseren Kunden zur Verfügung zu stellen. Mumb1e.de ist jedoch
+nicht verpflichtet, selbst auf den Systemen des Kunden Fehler und Sicherheitslücken
+zu beheben bzw. zu schließen.
+
+Abs. 4 Nutzung
+Abs.4 §1 
+Das Mumb1e Admin Plugin kann von privaten Kunden kostenlos,
+mit bis zu 5 virtuellen Servern auf unendliche Zeit betrieben werden.
+Ab dem 6. virtuellen Server wird eine Lizenzgebühr für "FreeHostig" fällig.
+Des weiteren gilt für gewerbliches Hosting oder kleine oder größere Unternehmen:
+Jeglicher Einsatz des Mumb1e Admin Plugins mit gewinnbringendem Willen führt
+unweigerlich zum Erwerb der Lizenz für "gewerbliches Hosting". Dabei ist es
+unwichtig ob die entsprechende Unternehmung mit dem Mumb1e Admin Plugin selbst
+oder mit anderen Produkten Gewinn macht.
+
+Abs.4 §2
+Der Kunde verpflichtet sich, die Produktdateien des Mumb1e Admin Plugins
+niemals an 3. weiter zu geben oder diese auf anderen Portalen im Internet
+zum Download anzubieten. Andernfalls sind die Urheber des MAP berechtigt,
+Lizenzstrafgebühren zu erheben. Kunden, die Schadcode in das Mumb1e Admin
+Plugin implementieren und/oder den Quellcode des MAP abändern, entfallen mit
+sofortiger Wirkung dem Support von Mumb1e.de. Lediglich die Templates dürfen
+in den entsprechend dafür vorgesehen Ordnern abgeändert werden. Kunden die den
+Quellcode abändern entfallen ebenfalls vom Support.
+
+Abs. 5 Copyright
+Abs.5 §1
+Das entfernen des Coprights ist strengstens verboten. Sowohl auf der Startseite,
+als auch im Footer des Mumb1e Admin Plugins, darf ohne den Erwerb der dafür
+vorgesehenen Lizenz kein Copyright entfernt werden. Außerdem ist es nicht gestattet,
+den Copyright Hinweis im externen Channelviewer des MAP zu entfernen. Erst gegen eine
+entsprechende Erlaubnis und Zahlung einer Gebühr wird dies durch die Urheber erlaubt.
+Nach der zweiten Abmahnung durch die Urheber des Mumb1e Admin Plugins fallen auch
+hier erhebliche Lizenzstrafgebühren an. Die erste Abmahnung gilt 24 Stunden und wird
+von den Urhebern an die E-Mail des entsprechenden Administrators gesendet.
+
+Abs. 6 Produktdateien
+Abs.6 §1
+Wir definieren zwischen Produktdateien und Lizenzen. Der Erwerb der Produktdateien
+oder von Upgrade-Paketen ist nicht mit einer Lizenz gleich zu stellen. Lizenzen sind
+ausschließlich die FreeHoster-Lizenz, die gewerbliche Lizenz sowie die Copyrigth Lizenzen.
+Mumb1e.de ist nach dem Kauf der Produktdateien und der evtl. erforderlichen Lizenz
+verpflichtet dem Kunden die Produktdateien einmalig zum Download anzubieten. Nach dem
+ersten Download ist der Kaufvertrag abgeschlossen und erfüllt.
+
+Abs. 7 Installation / Usability
+Abs.7 §1
+Mumb1e.de ist nicht verpflichtet das MAP auf dem System des Kunden zu installieren.
+Wir versichern jedoch das die Installation des Mumb1e Admin Plugin reibungslos funktioniert
+und einfach ist. 3rd-Party Software, wie der Webserver, die Datenbank, DBUS oder ZeroC ICE
+müssen vom Kunden selbst installiert und zur Funktion gebracht werden.
+
+Abs. 8 Lizenzgebühren
+Abs.8 §1
+Wie im Abschnitt "Nutzung" beschrieben, fallen 2 verschiendene Arten von Lizenzgebühren an.
+Für private Hoster ("FreeHoster") mit mehr als 5 virtuellen Instanzen fällt eine einmalige
+Lizenzgebühr in Höhe von 30,00€ an.
+
+Abs.8 §2
+Die Lizenz zur "gewerblichen Nutzung" kostet einmalig 85,00€.
+
+Abs.8 §3
+Beide Hosting-Lizenzen sind nicht zeitlich begrenzt!
+
+Abs.8 §4
+Zudem können die beiden Copyright Lizenzen gekauft werden. Hier kann der Content des
+Mumb1e Admin Plugins individualisiert werden. Zum einen kann die Content-Copyright-Lizenz
+für 15,00€ erworben werden und zum anderen geben wir unseren Kunden die Möglichkeit,
+das Copyright im externen Channelviewer für eine einmalige Gebühr in Höhe von 10,00€ zu entfernen.
+
+Abs. 9 Lizenzstrafgebühren
+Abs.9 §1
+Wie bereits in den ersten Absätzen beschrieben, ist Mumb1e.de als Urheber dazu berechtigt
+Lizenzstrafgebühren im Falle eines Verstoßes gegen diese Lizenz zu erheben.
+
+Abs.9 §2
+Bieten Sie das Mumb1e Admin Plugin auf anderen Portalen frei zum Download an,
+sind die Urheber dazu berechtigt, eine Strafgebühr in Höhe von 250,00€ excl.
+evtl. anfallender Versandkosten, sowie Mahnkosten zu berechnen.
+
+Abs.9 §3
+Das entfernen der Schutzorgane aus dem Quellcode des Mumb1e Admin Plugins wird mit
+einer Schutzgebühr in Höhe von 65,00€ excl. evtl. anfallender Versandkosten, sowie Mahnkosten geahndet.
+
+Abs.9 §4
+Das enfernen des Copyrights wird mit Lizenzstrafgebühren in Höhe von 150,00€ excl. evtl.
+anfallender Versandkosten, sowie Mahnkosten geahndet.
+
+Abs.9 §5
+Die unerlaubte Nutzung des Mumb1e Admin Plugins wird mit einer Strafe in Höhe von 175,00€,
+excl. evtl. anfallender Versandkosten, sowie Mahnkosten geahndet.
+
+Abs.9 §6
+Sollten Sie mit dem Mumb1e Admin Plugin ohne entsprechende Lizenz Hosting betreiben,
+erheben wir eine Srafe in Höhe von 275,00€, excl. evtl. anfallender Versandkosten, sowie Mahnkosten.
+
+Abs.9 §7
+Mahnkosten werden von uns in den folgenden Stufen berechnet: 
+Stufe 1 (Zahlungsaufforderung): 5,00€, 
+Stufe 2 (1. Mahnung): 10,00€,
+Stufe 3 (2. Mahnung): 15,00€,
+Stufe 4 (letze Mahnung): 20,00€.
+
+Version: v4 (Stand: 09.01.2011, gültig ab MAP V2.3.x)

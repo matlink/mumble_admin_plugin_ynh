@@ -1,0 +1,64 @@
+{
+    "name": "Mumble Admin Plugin",
+    "id": "mumble_admin_plugin",
+    "description": {
+        "en": "Mumble-server web interface",
+        "fr": "Interface web pour administrer un serveur mumble."
+    },
+    "developer": {
+        "name": "Matlink",
+        "email": "matlink@matlink.fr",
+        "url": "http://www.mumble.info"
+    },
+    "multi_instance": "false",
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain",
+                "ask": {
+                    "en": "Choose a domain for MAP",
+                    "fr": "Choisissez un domaine pour MAP"
+                },
+                "example": "domain.org"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "ask": {
+                    "en": "Choose a path for MAP",
+                    "fr": "Choisissez un chemin pour MAP"
+                },
+                "example": "/map",
+                "default": "/map"
+            },
+            {
+                "name": "admin",
+                "type": "user",
+                "ask": {
+                    "en": "Choose an admin user for MAP",
+                    "fr": "Choisissez un administrateur pour MAP"
+                },
+                "example": "homer"
+            },
+            {
+                "name": "admin_email",
+                "ask": {
+                    "en": "Set the admin email for password recovery",
+                    "fr": "Entrez une adresse pour la récupération de mot de passe"
+                },
+                "example": "john@snow.crow"
+            },{
+                "name": "admin_pass",
+                "type": "password", 
+                "ask": {
+                    "en": "Choose an admin password for MAP",
+                    "fr": "Choisissez le mot de passe administrateur"
+                },
+                "example": "homer"
+            }
+
+
+        ]
+    }
+}

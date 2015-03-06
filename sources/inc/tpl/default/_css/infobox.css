@@ -1,0 +1,46 @@
+/*
+ * Infoboxen. Meldungen
+ */
+.commerial {
+	border: 2px solid #000000;
+	color: #FFFFFF;
+	background: #FF2900;
+	text-align: center;
+	font-weight: bold;
+}
+
+.savearea {
+	width: 700px;
+	border: 2px solid #000000;
+	color: #FFFFFF;
+	background: #FF2900;
+	text-align: center;
+	font-weight: bold;
+}
+
+.boxsucess {
+	width: 700px;
+	border: 2px solid #000000;
+	color: #FFFFFF;
+	background: #346E35;
+	font-weight: bold;
+}
+
+.boxfalse {
+	width: 700px;
+	border: 2px solid #000000;
+	color: #FFFFFF;
+	background: #FF2900;
+	text-align: center;
+	font-weight: bold;
+}
+
+.sliceerror {
+	width: inherit;
+	border: 2px solid #000000;
+	color: #FFFFFF;
+	background: #FF2900;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 3px;
+}

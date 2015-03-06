@@ -1,0 +1,25 @@
+/*
+ * Footer
+ */
+.footer {
+	position: fixed;
+	bottom: 0px;
+	color: #FFFFFF;
+	background: #162140;
+	width: 100%;
+}
+
+.footer a {
+	color: #FFFFFF;
+}
+
+.footer_cells {
+	float: left;
+	padding-left: 1.3em;
+	padding-right: 1.3em;
+}
+
+.footer_space {
+	float: left;
+	color: #CCCCCC;
+}

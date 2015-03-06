@@ -1,0 +1,38 @@
+<form method="post" action="./index.php?section=action">
+<div class="content_navi_bg">
+	<div id="pager" class="pager">
+		<div id="filter-form">
+			<img src="../inc/tpl/default/images/tbl_sort_first.png" class="first"/>
+			<img src="../inc/tpl/default/images/tbl_sort_prev.png" class="prev"/>
+			<input type="text" class="pagedisplay" disabled="disabled"/>
+			<img src="../inc/tpl/default/images/tbl_sort_next.png" class="next"/>
+			<img src="../inc/tpl/default/images/tbl_sort_last.png" class="last"/>
+			<select class="pagesize">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="5">5</option>
+				<option value="10">10</option>
+				<option value="15">15</option>
+				<option selected="selected" value="20">20</option>
+				<option value="25">25</option>
+				<option value="30">30</option>
+				<option value="35">35</option>
+				<option value="50">50</option>
+				<option value="100">100</option>
+				<option value="9999999999">~</option>
+			</select>
+			<input id="filter" name="filter" value="[search]" style="height:17px" type="text" />
+		</div>
+	
+	</div>
+	
+	<div class="content_navi_default_right">
+		<img src="../inc/tpl/default/images/check_all.png" class="check_all" title="[check_all]">
+		<input type="image" name="profile" title="[profile]" src="../inc/tpl/[tpldir]/images/show_navi.png">
+		<input type="image" name="edit" title="[edit]" src="../inc/tpl/[tpldir]/images/edit_navi.png">
+		<input type="image" name="delete" title="[delete]" src="../inc/tpl/[tpldir]/images/delete_navi.png">
+		<input type="image" name="lock" title="[lock]" src="../inc/tpl/[tpldir]/images/lock_navi.png">
+		<a href="../admin/index.php?section=create_admin" target="_self"><img src="../inc/tpl/[tpldir]/images/add_navi.png" title="[add]" border="0"></a>
+		<a href="[referer]" target="_self"><img src="../inc/tpl/[tpldir]/images/back.png" title="[back]" border="0"></a>
+	</div>
+</div>

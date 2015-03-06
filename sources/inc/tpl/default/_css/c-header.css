@@ -1,0 +1,14 @@
+/*
+ * Content-Header
+ */
+.content_head_default {
+	border-top: 2px solid #000000;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-bottom: 1px solid #000000;
+	color: #FFFFFF;
+	background: #0AB3EA;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px;
+}

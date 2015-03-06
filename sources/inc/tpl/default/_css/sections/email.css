@@ -1,0 +1,28 @@
+/*
+ * Section: E-Mail anzeigen
+ */
+div#showMail {
+	margin-top: 3px;
+	margin-right: 2px;
+	padding: 5px;
+	border: 1px solid #000000;
+}
+div#editMail {
+	margin-top: 3px;
+	margin-right: 2px;
+	padding: 5px;
+	border: 1px solid #000000;
+}
+div#editMailPlaceholder {
+	float: right;
+}
+div#leftTemplateEMail {
+	float: left;
+	width: 65%;
+	clear: both;
+}
+
+div#rigthTemplateEMail {
+	float: right;
+	width: 35%;
+}

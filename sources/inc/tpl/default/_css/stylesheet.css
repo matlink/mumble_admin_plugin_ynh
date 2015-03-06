@@ -1,0 +1,48 @@
+/********************************************************************/
+/* |     MAP - Mumb1e Admin Plugin   |   http://www.mumb1e.de/    | */    
+/* |              ___      ___   _________   _________            | */ 
+/* |             |   \    /   | |   ___   | |   ___   |           | */ 
+/* |             |    \__/    | |  |   |  | |  |   |  |           | */ 
+/* |             |  |\    /|  | |  |___|  | |  |___|  |           | */ 
+/* |             |  | \__/ |  | |   ___   | |   ______|           | */ 
+/* |             |  |      |  | |  |   |  | |  |                  | */ 
+/* |             |__|      |__| |__|   |__| |__|                  | */ 
+/* |                                                              | */ 
+/* | --- COPYRIGTH ---                                            | */ 
+/* | Build by P.M. and M.H. | Accept the Copyrigths!              | */ 
+/* | © by Michael Koch 'aka' P.M. <princemichi@web.de>            | */ 
+/* | --- LICENSE ---                                              | */ 
+/* | MAP - Mumb1e Admin Plugin is a dual-licensed software        | */ 
+/* | MAP is released for private end-users under GPLv3            | */ 
+/* |   >>  (visit at: http://www.gnu.org/licenses/gpl-3.0.html)   | */ 
+/* | MAP is released for commercial use under a commerial license | */ 
+/* |   >>  (visit at: http://www.mumb1e.de/index.php/en/license)  | */ 
+/* | --- ATTENTION ---                                            | */ 
+/* | Changing, editing or spreading of this sourcecode in other   | */ 
+/* | scripts, or on other websites only with permission by PM!    | */ 
+/***********************************************************+********/
+ 
+/*
+ * Lade globale Stylesheets
+ */
+@import url("global.css");                  /* Globale HTML Tags */
+@import url("header.css");                  /* Header */
+@import url("menu.css");                    /* Menu */
+@import url("content.css");                 /* Content */
+@import url("c-header.css");                /* Content-Header */
+@import url("navi.css");                    /* Navigation */
+@import url("infobox.css");                 /* Infoboxen */
+@import url("table.css");                   /* Tabellen */
+@import url("tabs.css");                    /* Tabs */
+@import url("hover.css");                   /* Hover */
+@import url("footer.css");                  /* Footer */
+
+/*
+ * Lade Section-Stylesheets
+ */
+@import url("./sections/admin.css");        /* Section: Admin */
+@import url("./sections/cv.css");           /* Section: Channelviewer */
+@import url("./sections/forgot_area.css");  /* Section: Passwort vergessen */
+@import url("./sections/server.css");       /* Section: Server */
+@import url("./sections/email.css");     	/* Section: E-Mail */
+@import url("./sections/settings.css");     /* Section: Settings */

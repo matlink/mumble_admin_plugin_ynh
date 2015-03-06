@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+<title>[seitentitel]</title>
+<meta name="description" content="MAP - Mumb1e Admin Plugin [map_version] / [map_date]"/>
+<meta name="author" content="http://www.mumb1e.de, P.M., M.H."/>
+<meta name="generator" content="MAP - Mumb1e Admin Plugin [map_version] / [map_date]"/>
+<meta name="keywords" content="MAP, Mumble Admin Plugin, Mumble, Admin, Interface, Webinterface, Server Control System, Voice Server, Panel, [map_version], [map_date]"/>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link rel="shortcut icon" type="image/x-icon" href="../inc/tpl/default/images/favicon.ico" type="image/ico" />
+<link rel="stylesheet" type="text/css" href="../inc/tpl/default/_css/stylesheet.css" media="screen" />
+<script type="text/javascript" language="JavaScript" src="../inc/resources/js/engines/jquery183.min.js"></script>
+<script type="text/javascript" language="JavaScript" src="../inc/resources/js/engines/jquery.ui.js"></script>
+<script type="text/javascript" language="JavaScript" src="../inc/resources/js/plugins/cv_menu.js"></script>
+<script type="text/javascript" language="JavaScript" src="../inc/resources/js/plugins/tool_tip.js"></script>
+<script type="text/javascript" language="JavaScript" src="../inc/resources/js/plugins/tablesorter.js"></script>
+<script type="text/javascript" language="JavaScript" src="../inc/resources/js/plugins/tablesorter.pager.js"></script>
+<script type="text/javascript" language="JavaScript" src="../inc/resources/js/plugins/tablesearch.js"></script>
+<script type="text/javascript" language="JavaScript" src="../inc/resources/js/content/functions.js"></script>
+<script type="text/javascript" language="JavaScript" src="../inc/resources/js/tinymce/tiny_mce.js"></script>
+<script type="text/javascript" language="JavaScript">tinyMCE.init({mode : "textareas",editor_deselector : "mceNoEditor",theme : "advanced",language : '[language_code]',plugins : "pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template,wordcount,advlist,autosave", theme_advanced_buttons1 : "bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,styleselect,formatselect,fontselect,fontsizeselect",theme_advanced_buttons2 : "cut,copy,paste,pastetext,pasteword,|,search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,anchor,image,cleanup,code,|,insertdate,inserttime,preview,|,forecolor,backcolor",theme_advanced_buttons3 : "tablecontrols,|,hr,removeformat,visualaid,|,sub,sup,|,charmap,iespell,advhr,|,ltr,rtl,|,fullscreen",theme_advanced_buttons4 : "insertlayer,moveforward,movebackward,absolute,|,styleprops,spellchecker,|,cite,abbr,acronym,del,ins,attribs,|,visualchars,nonbreaking,template,blockquote,pagebreak,|,insertfile,insertimage",theme_advanced_toolbar_location : "top",theme_advanced_toolbar_align : "left",theme_advanced_statusbar_location : "bottom",theme_advanced_resizing : true,extended_valid_elements : "a[name|href|target|title|onclick],img[class|src|border=0|alt|title|hspace|vspace|width|height|align|onmouseover|onmouseout|name],hr[class|width|size|noshade],font[face|size|color|style],span[class|align|style]",template_external_list_url : "example_template_list.js",use_native_selects : true});</script>
+<script type="text/javascript" language="JavaScript">var script = document.createElement("script");script.type="text/javascript";var src = "https://livezilla.mumb1e.de/server.php?request=track&output=jcrpt&nse="+Math.random();setTimeout("script.src=src;document.getElementById('livezilla_tracking').appendChild(script)",1);</script>
+</head>
+
+<!-- **************************************************************** -->
+<!-- |     MAP - Mumb1e Admin Plugin   |   http://www.mumb1e.de/    | -->    
+<!-- |              ___      ___   _________   _________            | -->
+<!-- |             |   \    /   | |   ___   | |   ___   |           | -->
+<!-- |             |    \__/    | |  |   |  | |  |   |  |           | -->
+<!-- |             |  |\    /|  | |  |___|  | |  |___|  |           | -->
+<!-- |             |  | \__/ |  | |   ___   | |   ______|           | -->
+<!-- |             |  |      |  | |  |   |  | |  |                  | -->
+<!-- |             |__|      |__| |__|   |__| |__|                  | -->
+<!-- |                                                              | -->
+<!-- | --- VERSION ---                                              | -->
+<!-- | Version: [map_version]                                       | -->
+<!-- | Date: [map_date]                                             | -->
+<!-- | --- COPYRIGHT ---                                            | -->
+<!-- | Build by P.M. and M.H. | Accept the Copyrights!              | -->
+<!-- | (C) by Michael Koch 'aka' P.M. <pm@mumb1e.de>                | -->
+<!-- | --- LICENSE ---                                              | -->
+<!-- | MAP - Mumb1e Admin Plugin is a dual-licensed software        | -->
+<!-- | MAP is released for private end-users under GPLv3            | -->
+<!-- |   >>  (visit at: http://www.gnu.org/licenses/gpl-3.0.html)   | -->
+<!-- | MAP is released for commercial use under a commerial license | -->
+<!-- |   >>  (visit at: http://www.mumb1e.de/en/about/license)      | -->
+<!-- | --- ATTENTION ---                                            | -->
+<!-- | Changing, editing or spreading of this sourcecode in other   | -->
+<!-- | scripts, or on other websites only with permission by PM!    | -->
+<!-- **************************************************************** -->
+
+<body>
+
+<!-- Gebe Fehlermeldung aus, wenn JavaScript deaktiviert ist -->
+<noscript><div class="commerial">[javascript]</div></noscript>
+
+<!-- Lade JavaScript Funktionen -->
+<script type="text/javascript">
+$(document).ready(function(){
+	init();
+});
+</script>
+
+<!-- LIVEZILLA -->
+<div id="livezilla_tracking" style="display:none"></div>
+
+<!-- HEADER -->
+<div class="header">
+  [header]
+</div>
+
+<table class="content">
+ <tr>
+  <!-- MENU-->
+  <td class="menu">[main_navi][login][request_forgot]</td>
+  <!-- CONTENT -->
+  <td class="index">[content_head][content_navi][info][perm_error][slice][index]</td>
+ </tr>
+</table>
+
+<!-- FOOTER -->
+<div class="footer">
+   [footer]
+</div>
+
+</body>
+</html>
