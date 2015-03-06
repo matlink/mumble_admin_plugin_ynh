@@ -118,3 +118,4 @@ curl -k -X POST \
 
  sudo yunohost app setting $app skipped_uris -d
  sudo yunohost app ssowatconf
+ sudo service mumble-server restart
